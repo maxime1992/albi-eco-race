@@ -21,6 +21,8 @@
     "arrive": "~2.3.0",
     "nouislider": "https://github.com/leongersen/noUiSlider.git#~8.0.2",
     "comfort_tool": "https://github.com/CenterForTheBuiltEnvironment/comfort_tool.git",
-    "d3": "~3.5.9"
+    "d3": "~3.5.9",
+    "angular-translate-loader-static-files": "~2.8.1",
+    "angular-sanitize": "~1.4.8"
   }
 }

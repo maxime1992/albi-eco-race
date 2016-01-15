@@ -55,6 +55,11 @@
 						<li ng-class="{ active: isActive('/psychrometric')}" ng-click="isCollapsed=true" ng-if="city"><a ui-sref="psychrometric">Psychrometric</a></li>
 						<li ng-class="{ active: isActive('/statistics')}" ng-click="isCollapsed=true" ng-if="city"><a ui-sref="statistics">Statistics</a></li>
 					</ul>
+
+					<ul class="nav navbar-nav navbar-right lang">
+						<li class="lang"><a href="" ng-click="changeLanguageTo('fr')" ng-class="{ selected: getLanguage()=='fr'}">FR</a></li>
+						<li><a href="" ng-click="changeLanguageTo('en')" ng-class="{ selected: getLanguage()=='en'}">EN</a></li>
+					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
@@ -96,6 +101,9 @@
 		<!-- angular : libraries -->
 		<script src="assets/bower_components/angular/angular.js"></script>
 		<script src="assets/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="assets/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+		<script src="assets/bower_components/angular-translate/angular-translate.min.js"></script>
+		<script src="assets/bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
 		<script src="assets/bower_components/angular-loading-bar/build/loading-bar.min.js"></script>
 		<script src="assets/bower_components/afkl-lazy-image/release/lazy-image.min.js"></script>
 		<!-- @if TEST=true -->
@@ -118,7 +126,6 @@
 		<!-- angular : factories -->
 
 		<!-- angular : filters -->
-		<script src="assets/app_components/app/filters/cleanNameFilter.js"></script>
 
 		<!-- angular : controllers -->
 		<script src="assets/app_components/app/controllers/generalController.js"></script>
