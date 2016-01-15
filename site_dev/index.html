@@ -43,17 +43,17 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" ui-sref="city">
-						<img src="assets/app_components/img/logo.png">
-					</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="navbar-menu">
 					<ul class="nav navbar-nav">
-						<li ng-class="{ active: isActive('/city')}" ng-click="isCollapsed=true"><a ui-sref="city">City</a></li>
-						<li ng-class="{ active: isActive('/psychrometric')}" ng-click="isCollapsed=true" ng-if="city"><a ui-sref="psychrometric">Psychrometric</a></li>
-						<li ng-class="{ active: isActive('/statistics')}" ng-click="isCollapsed=true" ng-if="city"><a ui-sref="statistics">Statistics</a></li>
+						<li ng-class="{ active: isActive('/home')}" ng-click="isCollapsed=true"><a ui-sref="home"><i class="fa fa-home"></i></a></li>
+						<li ng-class="{ active: isActive('/challenge')}" ng-click="isCollapsed=true"><a ui-sref="challenge">{{ 'MENU.CHALLENGE' | translate }}</a></li>
+						<li ng-class="{ active: isActive('/informations')}" ng-click="isCollapsed=true"><a ui-sref="informations">{{ 'MENU.INFORMATIONS' | translate }}</a></li>
+						<li ng-class="{ active: isActive('/technic')}" ng-click="isCollapsed=true"><a ui-sref="technic">{{ 'MENU.TECHNIC' | translate }}</a></li>
+						<li ng-class="{ active: isActive('/contact')}" ng-click="isCollapsed=true"><a ui-sref="contact">{{ 'MENU.CONTACT' | translate }}</a></li>
+						<li ng-class="{ active: isActive('/registration')}" ng-click="isCollapsed=true"><a ui-sref="registration">{{ 'MENU.REGISTRATION' | translate }}</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right lang">
