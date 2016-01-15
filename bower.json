@@ -1,0 +1,26 @@
+{
+  "name": "albi-eco-race",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0",
+    "less": "~2.5.0",
+    "angular-mocks": "~1.3.15",
+    "angular-translate": "~2.7.2",
+    "angular-ui-router": "~0.2.15",
+    "angular-loading-bar": "~0.8.0",
+    "afkl-lazy-image": "~0.1.4",
+    "bootstrap-material-design": "~0.3.0",
+    "arrive": "~2.3.0",
+    "nouislider": "https://github.com/leongersen/noUiSlider.git#~8.0.2",
+    "comfort_tool": "https://github.com/CenterForTheBuiltEnvironment/comfort_tool.git",
+    "d3": "~3.5.9"
+  }
+}
