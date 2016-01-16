@@ -3,5 +3,9 @@
 	"MENU.INFORMATIONS": "Informations",
 	"MENU.TECHNIC": "Technic",
 	"MENU.CONTACT": "Contact",
-	"MENU.REGISTRATION": "Registration"
+	"MENU.REGISTRATION": "Registration",
+	"TIMING.DAY": "day",
+	"TIMING.HOUR": "hour",
+	"TIMING.MINUTE": "minute",
+	"TIMING.SECOND": "second"
 }

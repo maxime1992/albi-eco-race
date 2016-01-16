@@ -4,7 +4,14 @@
 		<div class="col-xs-12">
 			<!-- content -->
 			
-			<timer end-time="1462442400000">{{days}} day{{days > 1 ? 's' : ''}}, {{hours}} hour{{hour > 1 ? 's' : ''}}, {{minutes}} minute{{minutes > 1 ? 's' : ''}}, {{seconds}} second{{seconds > 1 ? 's' : ''}}.</timer>
+			<div class="text-center">
+				<timer end-time="1462442400000">
+					<span class="">{{days}}</span> {{'TIMING.DAY' | translate}}{{days > 1 ? 's' : ''}}, 
+					{{hours}} {{'TIMING.HOUR' | translate}}{{hours > 1 ? 's' : ''}}, 
+					{{minutes}} {{'TIMING.MINUTE' | translate}}{{minutes > 1 ? 's' : ''}}, 
+					{{seconds}} {{'TIMING.SECOND' | translate}}{{seconds > 1 ? 's' : ''}}
+				</timer>
+			</div>
 
 		</div>
 	</div>

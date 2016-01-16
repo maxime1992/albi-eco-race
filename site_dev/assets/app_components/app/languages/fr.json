@@ -3,5 +3,9 @@
 	"MENU.INFORMATIONS": "Informations",
 	"MENU.TECHNIC": "Technique",
 	"MENU.CONTACT": "Contact",
-	"MENU.REGISTRATION": "Inscription"
+	"MENU.REGISTRATION": "Inscription",
+	"TIMING.DAY": "jour",
+	"TIMING.HOUR": "heure",
+	"TIMING.MINUTE": "minute",
+	"TIMING.SECOND": "seconde"
 }
