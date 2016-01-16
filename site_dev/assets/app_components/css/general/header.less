@@ -2,21 +2,23 @@
 
 header {
 
-	.navbar {
+	.navbar, .navbar-default.navbar {
 		border-radius: 0;
+		background-color: @color_dark_primary;
 
-		&.navbar-inverse {
-			.lang .selected {
-				color: white;
-			}
-
-			.navbar-header .navbar-brand img {
-				height: 100%;
+		.collapse.navbar-collapse {
+			.nav.navbar-nav {
+				li.active,
+				li:hover {
+					background-color: @color_primary_color;
+				}
 			}
 		}
 
-		.lang .selected {
-			color: #333;
+		.navbar-header .navbar-brand img {
+			height: 48px;
+			line-height: 48px;
+			margin-top: -8px;
 		}
 	}
 	
