@@ -23,6 +23,9 @@
     "comfort_tool": "https://github.com/CenterForTheBuiltEnvironment/comfort_tool.git",
     "d3": "~3.5.9",
     "angular-translate-loader-static-files": "~2.8.1",
-    "angular-sanitize": "~1.4.8"
+    "angular-sanitize": "~1.4.8",
+    "angular-timer": "~1.3.3",
+    "humanize-duration": "~3.5.0",
+    "moment": "momentjs#~2.11.1"
   }
 }
