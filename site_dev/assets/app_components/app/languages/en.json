@@ -1,4 +1,5 @@
 {
+	"G.TO": "to",
 	"MENU.CHALLENGE": "Challenge", 
 	"MENU.INFORMATIONS": "Informations",
 	"MENU.TECHNIC": "Technic",
@@ -8,5 +9,11 @@
 	"TIMING.HOUR": "hour",
 	"TIMING.MINUTE": "minute",
 	"TIMING.SECOND": "second",
-	"HOME.PRESENTATION": "Competition reserved for electric vehicles, Albi Eco Race will be held from 5 to 8 May 2016 at the Albi circuit (Tarn). Three categories of vehicles will forward the potential of the electric energy in various forms (solar panels, hydrogen fuel cell)."
+	"HOME.PRESENTATION": "Competition reserved for electric vehicles, Albi Eco Race will be held from 5 to 8 May 2016 at the Albi circuit (Tarn). Three categories of vehicles will forward the potential of the electric energy in various forms (solar panels, hydrogen fuel cell).",
+	"INFORMATIONS.CIRCUIT.TITLE": "<span class=\"color-accent-color\">T</span>he <span class=\"color-accent-color\">C</span>ircuit",
+	"INFORMATIONS.CIRCUIT.LEFT-TURN": "left turns",
+	"INFORMATIONS.CIRCUIT.RIGHT-TURN": "right turns",
+	"INFORMATIONS.CIRCUIT.LENGTH": "Length",
+	"INFORMATIONS.CIRCUIT.WIDTH": "Width",
+	"INFORMATIONS.CIRCUIT.TURNS": "Turns"
 }

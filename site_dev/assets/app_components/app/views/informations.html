@@ -1,9 +1,41 @@
-<div id="information" class="content-margin-top">
+<div id="informations" class="content-margin-top">
 
-	<div class="row">
-		<div class="col-xs-12">
-			<!-- content -->
-			
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<!-- content -->
+				<h1 class="text-center no-margin-top margin-bottom-md" ng-bind-html="'INFORMATIONS.CIRCUIT.TITLE' | translate"></h1>
+
+				<div class="row circuit">
+					<div class="col-xs-12 col-md-6">
+						<table class="table">
+							<tr>
+								<th>{{ 'INFORMATIONS.CIRCUIT.LENGTH' | translate }}</th>
+								<td>3565 m</td>
+							</tr>
+							<tr>
+								<th>{{ 'INFORMATIONS.CIRCUIT.WIDTH' | translate }}</th>
+								<td>
+									10 {{ 'G.TO' | translate }} 12m
+								</td>
+							</tr>
+							<tr>
+								<th>{{ 'INFORMATIONS.CIRCUIT.TURNS' | translate }}</th>
+								<td>
+									10 {{ 'INFORMATIONS.CIRCUIT.LEFT-TURN' | translate }}<br />
+									5 {{ 'INFORMATIONS.CIRCUIT.RIGHT-TURN' | translate }}
+								</td>
+							</tr>
+						</table>
+
+						<hr />
+					</div>
+
+					<div class="col-xs-12 col-md-6 text-center">
+						<img src="assets/app_components/img/circuit.png" class="img-responsive display-inline-block" />
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 

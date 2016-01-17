@@ -75,7 +75,7 @@ app.config(['$compileProvider', '$httpProvider', '$locationProvider', '$statePro
 	});
 
 	// define sanitize strategy and prefered language
-	$translateProvider.useSanitizeValueStrategy('escape');
+	$translateProvider.useSanitizeValueStrategy(null);
 
 	// $translateProvider.preferredLanguage(defaultLang);
 	$translateProvider.determinePreferredLanguage();
