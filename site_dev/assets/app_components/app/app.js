@@ -9,9 +9,6 @@ app.config(['$compileProvider', '$httpProvider', '$locationProvider', '$statePro
 	// enable http caching
 	$httpProvider.defaults.cache = true;
 
-	// default redirection :
-	// redirect to 'default' state to keep user language
-	// and redirect to :lang/home
 	$stateProvider
 	.state('home', {
 		url: '/home',
@@ -58,7 +55,7 @@ app.config(['$compileProvider', '$httpProvider', '$locationProvider', '$statePro
 	// default redirection :
 	// redirect to home with the current language
 	.state('default', {
-		url: '/default',
+		url: '',
 		controllerProvider: ['$state', function ($state) {
 			// go to default state --> 'home'
 			$state.go('home');
