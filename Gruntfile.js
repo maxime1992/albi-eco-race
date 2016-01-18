@@ -39,6 +39,12 @@ module.exports = function (grunt) {
 				cwd: 'site_dev/assets/bower_components/bootstrap/dist/img',
 				src: '**/*',
 				dest: 'dist/assets/app_components/img/'
+			},
+			images: {
+				expand: true,
+				cwd: 'site_dev/assets/app_components/img',
+				src: '**/*',
+				dest: 'dist/assets/app_components/img/'
 			}
 		},
 
@@ -185,21 +191,6 @@ module.exports = function (grunt) {
 			}
 		},
 
-		imagemin: {
-			dynamic: {
-				options: {
-					optimizationLevel: 3,
-					cache: true
-				},
-				files: [{
-					expand: true,
-					cwd: 'site_dev/assets/app_components/img/',
-					src: ['**/*.{png,jpg,gif,PNG,JPG,GIF}'],
-					dest: 'dist/assets/app_components/img/'
-				}]
-			}
-		},
-
 		preprocess: {
 			html: {
 				src: ['dist/*.html'],
@@ -280,6 +271,7 @@ module.exports = function (grunt) {
 			'copy:keepFontsFontAwesome',
 			'copy:keepDistFontsBootstrap',
 			'copy:keepDistImgBootstrap',
+			'copy:images',
 			'replace:lessInHtml',
 			'less:lessToCssProd',
 			'replace:addCompiledTemplate',
@@ -296,7 +288,6 @@ module.exports = function (grunt) {
 			'uglify:generated',
 			'cssmin:generated',
 			'if:testing',
-			'imagemin',
 			'usemin',
 			'htmlmin:index',
 			'htmlmin:views'

@@ -1,4 +1,9 @@
+# folders
 **/*~
-node_modules
-site_dev/assets/bower_components
+node_modules/**/*
+site_dev/assets/bower_components/**/*
+.tmp/**/*
+dist
+
+# files
 npm-debug.log
