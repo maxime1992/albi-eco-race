@@ -23,5 +23,6 @@
 	"INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TITLE": "Formule dortoire",
 	"INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TEXT": "16€/personne. 3/4 personnes par chambre.",
 	"INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TITLE": "Formule hôtellerie",
-	"INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TEXT": "À réserver auprès de nos hôtels partenaires."
+	"INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TEXT": "À réserver auprès de nos hôtels partenaires.",
+	"INFORMATIONS.MAP.TITLE": "<span class=\"color-accent-color\">P</span>lan"
 }
