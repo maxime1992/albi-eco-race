@@ -6,39 +6,41 @@
 				<!-- content -->
 				<h1 class="text-center no-margin-top margin-bottom-md" ng-bind-html="'INFORMATIONS.CIRCUIT.TITLE' | translate"></h1>
 
-				<div class="row circuit margin-bottom-md">
-					<div class="col-xs-12 col-md-6">
-						<table class="table">
-							<tr>
-								<th>{{ 'INFORMATIONS.CIRCUIT.LENGTH' | translate }}</th>
-								<td>3565 m</td>
-							</tr>
-							<tr>
-								<th>{{ 'INFORMATIONS.CIRCUIT.WIDTH' | translate }}</th>
-								<td>
-									10 {{ 'G.TO' | translate }} 12m
-								</td>
-							</tr>
-							<tr>
-								<th>{{ 'INFORMATIONS.CIRCUIT.TURNS' | translate }}</th>
-								<td>
-									10 {{ 'INFORMATIONS.CIRCUIT.LEFT-TURN' | translate }}<br />
-									5 {{ 'INFORMATIONS.CIRCUIT.RIGHT-TURN' | translate }}
-								</td>
-							</tr>
-						</table>
-
-						<hr />
+				<div class="row circuit margin-bottom-lg">
+					<div class="col-xs-12 col-md-4">
+						<div class="background-color-white padding-md padding-top-sm padding-bottom-sm">
+							<table class="table">
+								<tr>
+									<th>{{ 'INFORMATIONS.CIRCUIT.LENGTH' | translate }}</th>
+									<td>3565 m</td>
+								</tr>
+								<tr>
+									<th>{{ 'INFORMATIONS.CIRCUIT.WIDTH' | translate }}</th>
+									<td>
+										10 {{ 'G.TO' | translate }} 12m
+									</td>
+								</tr>
+								<tr>
+									<th>{{ 'INFORMATIONS.CIRCUIT.TURNS' | translate }}</th>
+									<td>
+										10 {{ 'INFORMATIONS.CIRCUIT.LEFT-TURN' | translate }}<br />
+										5 {{ 'INFORMATIONS.CIRCUIT.RIGHT-TURN' | translate }}
+									</td>
+								</tr>
+							</table>
+						</div>
 					</div>
 
-					<div class="col-xs-12 col-md-6 text-center">
-						<img src="assets/app_components/img/circuit.png" class="img-responsive display-inline-block" />
+					<div class="col-xs-12 col-md-8 text-center">
+						<div class="background-color-white padding-md padding-top-sm padding-bottom-sm">
+							<img src="assets/app_components/img/circuit.png" class="img-responsive display-inline-block" />
+						</div>
 					</div>
 				</div>
 
 				<h1 class="text-center no-margin-top margin-bottom-md" ng-bind-html="'INFORMATIONS.PLANNING.TITLE' | translate"></h1>
 
-				<div class="row planning margin-bottom-md">
+				<div class="row planning margin-bottom-lg">
 					<div class="col-xs-12">
 						<div class="text-center background-color-white">
 							<img class="img-responsive display-inline-block" src="assets/app_components/img/planning.png" />
@@ -48,39 +50,41 @@
 
 				<h1 class="text-center no-margin-top margin-bottom-md" ng-bind-html="'INFORMATIONS.ACCOMMODATION.TITLE' | translate"></h1>
 
-				<div class="row accomodation">
+				<div class="row accomodation margin-bottom-lg">
 					<div class="col-xs-12">
-						<table class="table">
-							<tr>
-								<td><i class="fa fa-compass font-size-x3 color-primary-color"></i></td>
-								<td>
-									<b>{{ 'INFORMATIONS.ACCOMMODATION.CAMPING.TITLE' | translate }}</b>
-									<div class="color-secondary-text">
-										{{ 'INFORMATIONS.ACCOMMODATION.CAMPING.TEXT' | translate }}
-									</div>
-								</td>
-							</tr>
+						<div class="background-color-white padding-md padding-top-sm padding-bottom-sm">
+							<table class="table">
+								<tr>
+									<td><i class="fa fa-compass font-size-x3 color-primary-color"></i></td>
+									<td>
+										<b>{{ 'INFORMATIONS.ACCOMMODATION.CAMPING.TITLE' | translate }}</b>
+										<div class="color-secondary-text">
+											{{ 'INFORMATIONS.ACCOMMODATION.CAMPING.TEXT' | translate }}
+										</div>
+									</td>
+								</tr>
 
-							<tr>
-								<td><i class="fa fa-bed font-size-x3 color-primary-color"></i></td>
-								<td>
-									<b>{{ 'INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TITLE' | translate }}</b>
-									<div class="color-secondary-text">
-										{{ 'INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TEXT' | translate }}
-									</div>
-								</td>
-							</tr>
+								<tr>
+									<td><i class="fa fa-bed font-size-x3 color-primary-color"></i></td>
+									<td>
+										<b>{{ 'INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TITLE' | translate }}</b>
+										<div class="color-secondary-text">
+											{{ 'INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TEXT' | translate }}
+										</div>
+									</td>
+								</tr>
 
-							<tr>
-								<td><i class="fa fa-glass font-size-x3 color-primary-color"></i></td>
-								<td>
-									<b>{{ 'INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TITLE' | translate }}</b>
-									<div class="color-secondary-text">
-										{{ 'INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TEXT' | translate }}
-									</div>
-								</td>
-							</tr>
-						</table>
+								<tr>
+									<td><i class="fa fa-glass font-size-x3 color-primary-color"></i></td>
+									<td>
+										<b>{{ 'INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TITLE' | translate }}</b>
+										<div class="color-secondary-text">
+											{{ 'INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TEXT' | translate }}
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>
