@@ -19,4 +19,13 @@ app.controller('generalController', ['$scope', '$location', '$state', '$translat
 	$scope.getLanguage = function () {
 		return $translate.use();
 	};
+
+	// when was the site created
+	$scope.startYear = 2016;
+
+	// which year is it ?
+	// http://knowyourmeme.com/memes/what-year-is-it
+	$scope.whatYearIsIt = function() {
+		return new Date().getFullYear();
+	};
 }]);

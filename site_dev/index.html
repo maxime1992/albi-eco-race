@@ -89,7 +89,7 @@
 						<img class="img-footer" src="assets/app_components/img/footer_logo_1.png" />
 					</div>
 
-					Albi Eco Race &copy; 2016
+					Albi Eco Race &copy; {{ startYear }}<span ng-if="startYear < whatYearIsIt()">-{{ whatYearIsIt() }}</span>
 				</div>
 			</div>
 		</div>
