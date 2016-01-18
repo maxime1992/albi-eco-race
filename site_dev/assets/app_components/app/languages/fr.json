@@ -15,5 +15,12 @@
 	"INFORMATIONS.CIRCUIT.RIGHT-TURN": "virages à droite",
 	"INFORMATIONS.CIRCUIT.LENGTH": "Longueur",
 	"INFORMATIONS.CIRCUIT.WIDTH": "Largeur",
-	"INFORMATIONS.CIRCUIT.TURNS": "Virages"
+	"INFORMATIONS.CIRCUIT.TURNS": "Virages",
+	"INFORMATIONS.ACCOMMODATION.TITLE": "<span class=\"color-accent-color\">H</SPAN>ébergement <span class=\"color-accent-color\">d</span>es <span class=\"color-accent-color\">c</span>oncurrents",
+	"INFORMATIONS.ACCOMMODATION.CAMPING.TITLE": "Formule camping",
+	"INFORMATIONS.ACCOMMODATION.CAMPING.TEXT": "Comprise dans le prix de l'inscription. Terrain avec électricité, sanitaires et douches.",
+	"INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TITLE": "Formule dortoire",
+	"INFORMATIONS.ACCOMMODATION.DORMITORY.FORMULA.TEXT": "16€/personne. 3/4 personnes par chambre.",
+	"INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TITLE": "Formule hôtellerie",
+	"INFORMATIONS.ACCOMMODATION.FORMULA.HOTEL.TEXT": "À réserver auprès de nos hôtels partenaires."
 }
