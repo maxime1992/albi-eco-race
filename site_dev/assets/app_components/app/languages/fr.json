@@ -16,6 +16,7 @@
 	"INFORMATIONS.CIRCUIT.LENGTH": "Longueur",
 	"INFORMATIONS.CIRCUIT.WIDTH": "Largeur",
 	"INFORMATIONS.CIRCUIT.TURNS": "Virages",
+	"INFORMATIONS.PLANNING.TITLE": "<span class=\"color-accent-color\">L</span>e <span class=\"color-accent-color\">P</span>lanning",
 	"INFORMATIONS.ACCOMMODATION.TITLE": "<span class=\"color-accent-color\">H</SPAN>ébergement <span class=\"color-accent-color\">d</span>es <span class=\"color-accent-color\">c</span>oncurrents",
 	"INFORMATIONS.ACCOMMODATION.CAMPING.TITLE": "Formule camping",
 	"INFORMATIONS.ACCOMMODATION.CAMPING.TEXT": "Comprise dans le prix de l'inscription. Terrain avec électricité, sanitaires et douches.",
