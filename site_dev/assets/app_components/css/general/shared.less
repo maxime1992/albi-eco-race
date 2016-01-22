@@ -8,6 +8,7 @@ html, body {
 body {
 	font-size: 15px;
 	color: @color_primary_text;
+	background-color: @body_background_color;
 }
 
 // main part of the app : content + right menu
@@ -44,6 +45,18 @@ body {
 
 .font-size-x5 {
 	font-size: 50px;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-content {
+	.background-color-white;
+	.padding-top-md;
+	.padding-bottom-md;
+	.shadow;
 }
 
 .center-vertically {
