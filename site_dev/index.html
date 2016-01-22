@@ -87,7 +87,24 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 color-secondary-text">
+				<div class="visible-xs col-xs-12 color-secondary-text text-center">
+					Albi Eco Race &copy; {{ startYear }}<span ng-if="startYear < whatYearIsIt()">-{{ whatYearIsIt() }}</span>
+					<div class="row margin-top-md">
+						<div class="col-xs-4 no-padding">
+							<img class="img-footer" src="assets/app_components/img/footer-logo-2.png" />
+						</div>
+						<div class="col-xs-4 no-padding">
+							<img class="img-footer" src="assets/app_components/img/footer-logo-1.png" />
+						</div>
+						<div class="col-xs-4 no-padding">
+							<img class="img-footer" src="assets/app_components/img/footer-logo-3.png" />
+						</div>
+					</div>
+				</div>
+
+				</div>
+
+				<div class="hidden-xs col-xs-12 color-secondary-text">
 					<div class="pull-right">
 						<img class="img-footer" src="assets/app_components/img/footer-logo-2.png" />
 						<img class="img-footer" src="assets/app_components/img/footer-logo-1.png" />
