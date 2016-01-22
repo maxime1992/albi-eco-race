@@ -80,3 +80,17 @@ app.config(['$compileProvider', '$httpProvider', '$locationProvider', '$statePro
 	// $translateProvider.preferredLanguage(defaultLang);
 	$translateProvider.determinePreferredLanguage();
 }]);
+
+app.run(function ($rootScope, $location) {
+	// start google analytics only if this is the prod env
+	if ($location.host().indexOf('albiecorace') >= 0) {
+		// at the run, create the app
+		ga('create', 'UA-72750136-1', 'auto');
+
+		// everytime the user change a page
+		$rootScope.$on('$stateChangeSuccess', function(){
+				// push the page to GA
+				ga('send', 'pageview', $location.path());
+		});
+	}
+});
