@@ -45,6 +45,12 @@ module.exports = function (grunt) {
 				cwd: 'site_dev/assets/app_components/img',
 				src: '**/*',
 				dest: 'dist/assets/app_components/img/'
+			},
+			favicon: {
+				expand: true,
+				cwd: 'site_dev/',
+				src: ['*.ico'],
+				dest: 'dist/'
 			}
 		},
 
@@ -272,6 +278,7 @@ module.exports = function (grunt) {
 			'copy:keepDistFontsBootstrap',
 			'copy:keepDistImgBootstrap',
 			'copy:images',
+			'copy:favicon',
 			'replace:lessInHtml',
 			'less:lessToCssProd',
 			'replace:addCompiledTemplate',
