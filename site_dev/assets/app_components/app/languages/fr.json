@@ -1,6 +1,7 @@
 {
 	"G.TO": "à",
-	"MENU.CHALLENGE": "Challenge", 
+	"G.ADDRESS": "Adresse postale",
+	"MENU.CHALLENGE": "Challenge",
 	"MENU.INFORMATIONS": "Informations",
 	"MENU.TECHNIC": "Technique",
 	"MENU.CONTACT": "Contact",
@@ -32,5 +33,12 @@
 	"CHALLENGE.LVL.2.TITLE": "Niveau 2 : Light weight electric cars",
 	"CHALLENGE.LVL.2": "Le niveau 2 opposera  des véhicules électriques pouvant répondre à deux réglementations distinctes. Les Prototypes, véhicules légers et aérodynamiques sont conçus dans le seul but d’optimiser l’efficience énergétique. Les Urban Concept, quant à eux, doivent en plus respecter des contraintes supplémentaires pour se rapprocher des véhicules de série. Trois challenges seront proposés, le Short-Run, le Long-Run et le Slalom. Le Short-Run est une course de régularité sur 5 tours. Les concurrents devront respecter une vitesse imposée et tout écart par rapport à cette allure sera pénalisé. Le Long-Run, course d’endurance de deux heures vise à démontrer l’efficience et la fiabilité des véhicules. Le but est de parcourir la plus grande distance avec une quantité d‘énergie donnée. Trois pilotes par voiture se relaieront pendant la course. Les choix stratégiques des équipes seront donc primordiaux. Enfin, les concurrents s’affronteront en duel à élimination directe lors de l’épreuve de maniabilité, le Slalom. Des récompenses seront également attribuées sur différents critères (communication, innovation, sécurité, persévérance, diversité et animation).",
 	"CHALLENGE.LVL.3.TITLE": "Niveau 3 : High performance Solar Cars",
-	"CHALLENGE.LVL.3": "En parallèle, des véhicules solaires très hautes performances s'affronteront sur la piste (niveau 3). Ils devront participer à quatre challenges : une course de vitesse de 20 tours, une épreuve d’endurance sur une journée, une épreuve uniquement solaire sans batteries et enfin, une épreuve visant à atteindre la plus haute vitesse de pointe."
+	"CHALLENGE.LVL.3": "En parallèle, des véhicules solaires très hautes performances s'affronteront sur la piste (niveau 3). Ils devront participer à quatre challenges : une course de vitesse de 20 tours, une épreuve d’endurance sur une journée, une épreuve uniquement solaire sans batteries et enfin, une épreuve visant à atteindre la plus haute vitesse de pointe.",
+	"REGISTRATION.LEVEL.1.TITLE": "<span class=\"color-accent-color\">I</span>nscription <span class=\"color-accent-color\">N</span>iveau <span class=\"color-accent-color\">1</span> - <span class=\"color-accent-color\">R</span>C <span class=\"color-accent-color\">S</span>olaires",
+	"REGISTRATION.LEVEL.1.REQUIREMENTS.TITLE": "Pour pouvoir, vous inscrire à Albi Eco Race – Niveau 1 – RC Solaires, vous devez :",
+	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.1": "Remplir le formulaire suivant",
+	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.2": "Envoyer par email une photo d’équipe ou de votre véhicule à",
+	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.3": "(le nom du fichier devra être le nom de l’équipe)",
+	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.4": "Envoyer un chèque de 20€ à l’ordre de l’Avere Midi-Pyrénées pour les frais d’inscription",
+	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.5": "Envoyer un chèque de caution de 300 € à l’ordre de l’Avere Midi-Pyrénées qui vous sera rendu au moment de votre départ"
 }
