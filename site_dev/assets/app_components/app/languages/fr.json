@@ -40,5 +40,13 @@
 	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.2": "Envoyer par email une photo d’équipe ou de votre véhicule à",
 	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.3": "(le nom du fichier devra être le nom de l’équipe)",
 	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.4": "Envoyer un chèque de 20€ à l’ordre de l’Avere Midi-Pyrénées pour les frais d’inscription",
-	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.5": "Envoyer un chèque de caution de 300 € à l’ordre de l’Avere Midi-Pyrénées qui vous sera rendu au moment de votre départ"
+	"REGISTRATION.LEVEL.1.REQUIREMENTS.ITEM.5": "Envoyer un chèque de caution de 300 € à l’ordre de l’Avere Midi-Pyrénées qui vous sera rendu au moment de votre départ",
+	"REGISTRATION.LEVEL.2.TITLE": "<span class=\"color-accent-color\">I</span>nscription <span class=\"color-accent-color\">L</span>evel <span class=\"color-accent-color\">2</span> – <span class=\"color-accent-color\">U</span>rban/<span class=\"color-accent-color\">P</span>rototypes",
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.TITLE": "In order to register for Albi Eco Race – Level 2 – UrbanConcept/Prototypes, you must :",
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.1": "Fill the form below",
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.2": "Send by email a photo of the team with the vehicle to",
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.3": "(named the file as your team name)",
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.4": "Send by email a copy of the driving license or ASSR 2 of each pilot to",
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.5": "Send by postal letter a cheque of 50 euros for the registration fees (order: Avere Midi-Pyrénées)",
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.6": "Send by postal letter a deposit cheque of 300 € (order : Avere Midi-Pyrénées), which will be given back to you at your departure"
 }
