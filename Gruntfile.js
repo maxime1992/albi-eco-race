@@ -51,6 +51,12 @@ module.exports = function (grunt) {
 				cwd: 'site_dev/',
 				src: ['*.ico'],
 				dest: 'dist/'
+			},
+			others: {
+				expand: true,
+				cwd: 'site_dev/assets/app_components/others',
+				src: '**/*',
+				dest: 'dist/assets/app_components/others/'
 			}
 		},
 
@@ -279,6 +285,7 @@ module.exports = function (grunt) {
 			'copy:keepDistImgBootstrap',
 			'copy:images',
 			'copy:favicon',
+			'copy:others',
 			'replace:lessInHtml',
 			'less:lessToCssProd',
 			'replace:addCompiledTemplate',
