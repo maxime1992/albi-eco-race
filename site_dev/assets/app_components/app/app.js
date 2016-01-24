@@ -81,7 +81,10 @@ app.config(['$compileProvider', '$httpProvider', '$locationProvider', '$statePro
 	$translateProvider.determinePreferredLanguage();
 }]);
 
-app.run(function ($rootScope, $location) {
+app.run(['$rootScope', '$location', '$translate', function ($rootScope, $location, $translate) {
+	// until the app is fully translated, display the site in french
+	$translate.use('fr');
+
 	// start google analytics only if this is the prod env
 	if ($location.host().indexOf('albiecorace') >= 0) {
 		// at the run, create the app
@@ -93,4 +96,4 @@ app.run(function ($rootScope, $location) {
 				ga('send', 'pageview', $location.path());
 		});
 	}
-});
+}]);
