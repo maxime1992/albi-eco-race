@@ -24,10 +24,10 @@ app.config(['$compileProvider', '$httpProvider', '$locationProvider', '$statePro
 		}
 	})
 
-	.state('technic', {
-		url: '/technic',
+	.state('rules', {
+		url: '/rules',
 		views: {
-			mainView: {templateUrl: 'assets/app_components/app/views/technic.html'}
+			mainView: {templateUrl: 'assets/app_components/app/views/rules.html'}
 		}
 	})
 

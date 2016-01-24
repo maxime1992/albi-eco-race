@@ -1,9 +1,11 @@
 {
 	"G.TO": "à",
 	"G.ADDRESS": "Adresse postale",
+	"G.DOC.FR": "document en français",
+	"G.DOC.EN": "document en anglais",
 	"MENU.CHALLENGE": "Challenge",
 	"MENU.INFORMATIONS": "Informations",
-	"MENU.TECHNIC": "Technique",
+	"MENU.RULES": "Règlement",
 	"MENU.CONTACT": "Contact",
 	"MENU.REGISTRATION": "Inscription",
 	"TIMING.DAY": "jour",
@@ -48,5 +50,15 @@
 	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.3": "(named the file as your team name)",
 	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.4": "Send by email a copy of the driving license or ASSR 2 of each pilot to",
 	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.5": "Send by postal letter a cheque of 50 euros for the registration fees (order: Avere Midi-Pyrénées)",
-	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.6": "Send by postal letter a deposit cheque of 300 € (order : Avere Midi-Pyrénées), which will be given back to you at your departure"
+	"REGISTRATION.LEVEL.2.REQUIREMENTS.ITEM.6": "Send by postal letter a deposit cheque of 300 € (order : Avere Midi-Pyrénées), which will be given back to you at your departure",
+	"RULES.TITLE": "<span class=\"color-accent-color\">R</span>èglement",
+	"RULES.LVL.1.TITLE": "Niveau 1 : RC Solar",
+	"RULES.LVL.1.ITEM.1": "Règlement RC Solar",
+	"RULES.LVL.2.TITLE": "Niveau 2 : Light weight electric cars",
+	"RULES.LVL.2.ITEM.1": "Règlement technique",
+	"RULES.LVL.2.ITEM.2": "Règlement de la compétition",
+	"RULES.LVL.3.TITLE": "Niveau 3 : High performance Solar cars",
+	"RULES.LVL.3.ITEM.1": "Règlement technique",
+	"RULES.LVL.3.ITEM.2": "Règlement de la compétition",
+	"RULES.": ""
 }
