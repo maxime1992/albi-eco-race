@@ -82,31 +82,36 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="visible-xs col-xs-12 color-secondary-text text-center">
-					Albi Eco Race &copy; {{ startYear }}<span ng-if="startYear < whatYearIsIt()">-{{ whatYearIsIt() }}</span>
-					<div class="row margin-top-md">
-						<div class="col-xs-4 no-padding">
-							<img class="img-footer" src="assets/app_components/img/footer-logo-2.png" />
-						</div>
-						<div class="col-xs-4 no-padding">
-							<img class="img-footer" src="assets/app_components/img/footer-logo-1.png" />
-						</div>
-						<div class="col-xs-4 no-padding">
-							<img class="img-footer" src="assets/app_components/img/footer-logo-3.png" />
+				<div class="col-xs-12 color-secondary-text">
+					<div class="row">
+						<div class="col-xs-12 text-center margin-bottom-md">
+							Albi Eco Race &copy; {{ startYear }}<span ng-if="startYear < whatYearIsIt()">-{{ whatYearIsIt() }}</span><br />
 						</div>
 					</div>
-				</div>
 
-				</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-3 margin-bottom-sm">
+							<div class="margin-bottom-xs">
+								<i class="fa fa-code color-accent-color text-bold"></i> <u>Coded by</u>
+							</div>
 
-				<div class="hidden-xs col-xs-12 color-secondary-text">
-					<div class="pull-right">
-						<img class="img-footer" src="assets/app_components/img/footer-logo-2.png" />
-						<img class="img-footer" src="assets/app_components/img/footer-logo-1.png" />
-						<img class="img-footer" src="assets/app_components/img/footer-logo-3.png" />
+							<a href="https://www.linkedin.com/in/maximerobert1992" target="_blank">Maxime Robert</a>
+						</div>
+
+						<div class="col-xs-12 col-sm-3 margin-bottom-sm">
+							<div class="margin-bottom-xs">
+								<i class="fa fa-cogs color-accent-color"></i> <u>Designed by</u>
+							</div>
+
+							Léna Estrade<br />
+							Bastien Colas<br />
+							Alexandre Rousseau
+						</div>
+
+						<div class="col-xs-12 col-sm-6">
+								<img class="img-footer" src="assets/app_components/img/footer-logo.png" />
+						</div>
 					</div>
-
-					Albi Eco Race &copy; {{ startYear }}<span ng-if="startYear < whatYearIsIt()">-{{ whatYearIsIt() }}</span>
 				</div>
 			</div>
 		</div>
