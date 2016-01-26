@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="assets/bower_components/afkl-lazy-image/release/lazy-image-style.min.css">
 		<link href="assets/bower_components/bootstrap-material-design/dist/css/material-fullpalette.min.css" rel="stylesheet">
 		<link href="assets/bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+		<link href="assets/bower_components/angular-ui-router-anim-in-out/css/anim-in-out.css" rel="stylesheet">
 	<!-- endbuild -->
 
 	<!-- @ifdef DEBUG -->
@@ -73,7 +74,7 @@
 	<section id="content" class="margin-bottom-md">
 
 		<!-- CONTENT -->
-		<div ui-view="mainView"></div>
+		<div ui-view="mainView" class="anim-in-out anim-slide-below-fade" data-anim-speed="300"></div>
 
 	</section>
 	<!-- CONTENT END -->
@@ -155,6 +156,9 @@
 		<script src="assets/bower_components/afkl-lazy-image/release/lazy-image.min.js"></script>
 		<script src="assets/bower_components/angular-parallax/scripts/angular-parallax.js"></script>
 		<script src="assets/bower_components/angular-timer/dist/angular-timer.min.js"></script>
+		<script src="assets/bower_components/angular-animate/angular-animate.min.js"></script>
+		<script src="assets/bower_components/angular-ui-router-anim-in-out/anim-in-out.js"></script>
+
 		<!-- @if TEST=true -->
 			<script src="assets/bower_components/angular-mocks/angular-mocks.js"></script>
 		<!-- @endif -->

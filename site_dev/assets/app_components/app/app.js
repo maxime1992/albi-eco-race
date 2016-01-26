@@ -1,4 +1,4 @@
-var app = angular.module('albi-eco-race', ['ngMockE2E', 'ui.router', 'ngSanitize', 'pascalprecht.translate', 'angular-loading-bar', 'afkl.lazyImage', 'timer', 'angular-parallax']);
+var app = angular.module('albi-eco-race', ['ngMockE2E', 'ngAnimate', 'ui.router', 'ngSanitize', 'pascalprecht.translate', 'angular-loading-bar', 'afkl.lazyImage', 'timer', 'angular-parallax', 'anim-in-out']);
 var languages = ['en', 'fr'];
 
 // routes configuration
