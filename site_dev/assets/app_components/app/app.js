@@ -24,6 +24,13 @@ app.config(['$compileProvider', '$httpProvider', '$locationProvider', '$statePro
 		}
 	})
 
+	.state('rewards', {
+		url: '/rewards',
+		views: {
+			mainView: {templateUrl: 'assets/app_components/app/views/rewards.html'}
+		}
+	})
+
 	.state('rules', {
 		url: '/rules',
 		views: {
