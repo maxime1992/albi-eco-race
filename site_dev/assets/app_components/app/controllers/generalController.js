@@ -1,4 +1,4 @@
-app.controller('generalController', ['$scope', '$location', '$state', '$translate', function ($scope, $location, $state, $translate) {
+app.controller('generalController', ['$rootScope', '$scope', '$location', '$state', '$translate', function ($rootScope, $scope, $location, $state, $translate) {
 	// which item is selected in menu ?
 	// return true if viewLocation is equal to url
 	$scope.isActive = function (viewLocation) {
@@ -25,4 +25,10 @@ app.controller('generalController', ['$scope', '$location', '$state', '$translat
 	$scope.whatYearIsIt = function() {
 		return new Date().getFullYear();
 	};
+
+	$scope.translateReady = false;
+
+	$rootScope.$on('$translateChangeSuccess', function () {
+		$scope.translateReady = true;
+	});
 }]);

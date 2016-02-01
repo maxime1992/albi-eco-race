@@ -22,9 +22,17 @@ header {
 
 		.collapse.navbar-collapse {
 			.nav.navbar-nav {
-				li.active,
-				li:hover {
-					background-color: @color_primary_color;
+				li {
+					display: none;
+
+					&.menu-display-inline-block {
+						display: block;
+					}
+
+					&.active,
+					&:hover {
+						background-color: @color_primary_color;
+					}
 				}
 			}
 		}
@@ -35,7 +43,6 @@ header {
 			margin-top: -8px;
 		}
 	}
-
 }
 
 @media (min-width : 768px) {
