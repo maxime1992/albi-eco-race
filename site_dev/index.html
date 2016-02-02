@@ -65,6 +65,11 @@
 						<li ng-class="{active: isActive('/contact'), 'menu-display-inline-block': translateReady}" ng-click="navCollapsed=true"><a ui-sref="contact">{{ 'MENU.CONTACT' | translate }}</a></li>
 						<li ng-class="{active: isActive('/registration'), 'menu-display-inline-block': translateReady}" ng-click="navCollapsed=true"><a ui-sref="registration">{{ 'MENU.REGISTRATION' | translate }}</a></li>
 					</ul>
+
+					<ul class="nav navbar-nav navbar-right lang">
+						<li class="lang" ng-class="{'menu-display-inline-block': translateReady}"><a href="" ng-click="changeLanguageTo('fr')" ng-class="{ selected: getLanguage()=='fr'}">FR</a></li>
+						<li ng-class="{'menu-display-inline-block': translateReady}"><a href="" ng-click="changeLanguageTo('en')" ng-class="{ selected: getLanguage()=='en'}">EN</a></li>
+					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
