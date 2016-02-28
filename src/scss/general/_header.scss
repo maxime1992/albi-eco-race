@@ -1,0 +1,57 @@
+@import "variables";
+
+header {
+	.navbar-collapse.collapse {
+		display: block;
+		overflow: hidden;
+		max-height: 0px;
+		-webkit-transition: max-height .3s ease;
+		-moz-transition: max-height .3s ease;
+		-o-transition: max-height .3s ease;
+		transition: max-height .3s ease;
+
+		&.in {
+			max-height: 2000px;
+		}
+	}
+
+	.navbar, .navbar-default.navbar {
+		border-radius: 0;
+		background-color: $color_dark_primary;
+		margin-bottom: 0;
+
+		.collapse.navbar-collapse {
+			.nav.navbar-nav {
+				li {
+					display: none;
+
+					&.menu-display-inline-block {
+						display: block;
+					}
+
+					&.active,
+					&:hover {
+						background-color: $color_primary_color;
+					}
+				}
+			}
+		}
+
+		.navbar-header .navbar-brand img {
+			height: 48px;
+			line-height: 48px;
+			margin-top: -8px;
+		}
+	}
+}
+
+@media (min-width : 768px) {
+	header {
+		.navbar, .navbar-default.navbar {
+			.collapse.navbar-collapse {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+}

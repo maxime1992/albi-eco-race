@@ -1,9 +1,11 @@
 # folders
-**/*~
-node_modules/**/*
-site_dev/assets/bower_components/**/*
-.tmp/**/*
-dist
+node_modules/*
+build/*
+docs/*
+coverage/*
+.publish/*
 
 # files
+*.zip
 npm-debug.log
+**/*~

@@ -1,0 +1,23 @@
+@import "variables";
+
+footer {
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: $color_dark_primary;
+	padding-top: 15px;
+	padding-bottom: 25px;
+
+	.img-footer {
+		width: 100%;
+	}
+}
+
+@media (max-width : 767px) {
+	footer {
+		text-align: center;
+
+		.img-footer {
+			margin-top: 20px;
+		}
+	}
+}
