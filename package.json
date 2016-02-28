@@ -1,6 +1,6 @@
 {
   "name": "albi-eco-race",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Albi-eco-race website",
   "main": "Gulpfile.js",
   "dependencies": {
