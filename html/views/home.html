@@ -1,1 +1,46 @@
-<div id="home" ng-controller="homeController"><!--<div class="counter" parallax-background parallax-ratio="0.2">--><div class="counter"><div class="wrapper-timer"><div class="wrapper-timer-opaque"><timer end-time="1462442400000"><span class="color-accent-color font-size-x4 text-bold">{{days}}</span> {{'TIMING.DAY' | translate}}{{days > 1 ? 's' : ''}}, <span class="color-accent-color font-size-x4 text-bold">{{hours}}</span> {{'TIMING.HOUR' | translate}}{{hours > 1 ? 's' : ''}}, <span class="color-accent-color font-size-x4 text-bold">{{minutes}}</span> {{'TIMING.MINUTE' | translate}}{{minutes > 1 ? 's' : ''}}, <span class="color-accent-color font-size-x4 text-bold">{{seconds}}</span> {{'TIMING.SECOND' | translate}}{{seconds > 1 ? 's' : ''}}</timer></div></div></div><div class="container content-margin-top"><div class="row"><div class="col-xs-12 page-content"><!-- content --><h1 class="text-center no-margin-top margin-bottom-md"><span class="color-accent-color">A</span>lbi <span class="color-accent-color">E</span>co <span class="color-accent-color">R</span>ace</h1><div class="row"><div class="col-xs-12 col-md-4 text-justify margin-bottom-md"><div class="background-color-white padding-md padding-top-sm padding-bottom-sm"><p class="margin-bottom-md">{{ 'HOME.PRESENTATION' | translate }}</p><div class="text-center"><img src="./img/logo.png" class="img-responsive display-inline-block"></div></div></div><div class="col-xs-12 col-md-4 text-center margin-bottom-md"><a class="twitter-timeline" href="https://twitter.com/AlbiEcoRace" data-widget-id="688837735826731012"></a></div><div class="col-xs-12 col-md-4 text-center"><a class="twitter-timeline" href="https://twitter.com/hashtag/AlbiEcoRace" data-widget-id="688419033352392704"></a></div></div></div></div></div></div>
+<div id="home" ng-controller="homeController">
+
+	<!--<div class="counter" parallax-background parallax-ratio="0.2">-->
+	<div class="counter">
+		<div class="wrapper-timer">
+			<div class="wrapper-timer-opaque">
+				<timer end-time="1462442400000">
+					<span class="color-accent-color font-size-x4 text-bold">{{days}}</span> {{'TIMING.DAY' | translate}}{{days > 1 ? 's' : ''}},
+					<span class="color-accent-color font-size-x4 text-bold">{{hours}}</span> {{'TIMING.HOUR' | translate}}{{hours > 1 ? 's' : ''}},
+					<span class="color-accent-color font-size-x4 text-bold">{{minutes}}</span> {{'TIMING.MINUTE' | translate}}{{minutes > 1 ? 's' : ''}},
+					<span class="color-accent-color font-size-x4 text-bold">{{seconds}}</span> {{'TIMING.SECOND' | translate}}{{seconds > 1 ? 's' : ''}}
+				</timer>
+			</div>
+		</div>
+	</div>
+
+	<div class="container content-margin-top">
+		<div class="row">
+			<div class="col-xs-12 page-content">
+				<!-- content -->
+				<h1 class="text-center no-margin-top margin-bottom-md"><span class="color-accent-color">A</span>lbi <span class="color-accent-color">E</span>co <span class="color-accent-color">R</span>ace</h1>
+
+				<div class="row">
+					<div class="col-xs-12 col-md-4 text-justify margin-bottom-md">
+						<div class="background-color-white padding-md padding-top-sm padding-bottom-sm">
+							<p class="margin-bottom-md">{{ 'HOME.PRESENTATION' | translate }}</p>
+
+							<div class="text-center">
+								<img src="./img/logo.png" class="img-responsive display-inline-block" />
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-md-4 text-center margin-bottom-md">
+						<a class="twitter-timeline" href="https://twitter.com/AlbiEcoRace" data-widget-id="688837735826731012"></a>
+					</div>
+
+					<div class="col-xs-12 col-md-4 text-center">
+						<a class="twitter-timeline" href="https://twitter.com/hashtag/AlbiEcoRace" data-widget-id="688419033352392704"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
