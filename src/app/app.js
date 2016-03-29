@@ -22,13 +22,6 @@ let languages = ['en', 'fr'];
 			}
 		})
 
-		.state('rewards', {
-			url: '/rewards',
-			views: {
-				mainView: {templateUrl: './html/views/rewards.html'}
-			}
-		})
-
 		.state('rules', {
 			url: '/rules',
 			views: {
