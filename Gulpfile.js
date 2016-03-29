@@ -35,7 +35,6 @@ $.env = {
 	get isMajor() { return this.RELEASE_MAJOR === 'major'; },
 	get isPatch() { return this.RELEASE_PATCH === 'patch'; },
 	get paths() { return this.isDev ? $.paths.dev : $.paths.prod; }
-
 };
 
 function getTask(task) {
