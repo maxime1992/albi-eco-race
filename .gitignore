@@ -1,4 +1,5 @@
 # folders
+.vscode/*
 node_modules/*
 build/*
 docs/*
